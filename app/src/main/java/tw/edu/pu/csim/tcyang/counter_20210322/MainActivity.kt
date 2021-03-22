@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             counter=(1..100).random()
             txv.text = counter.toString()
         }
+
         txv.text = counter.toString()
 
     }
