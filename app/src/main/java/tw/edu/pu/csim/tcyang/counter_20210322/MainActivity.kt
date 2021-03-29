@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             override fun onClick(v: View?) {
                 counter=(1..100).random()
                 txv.text = counter.toString()
+
             }
 
 
