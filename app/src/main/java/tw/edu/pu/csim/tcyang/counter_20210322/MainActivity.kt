@@ -89,6 +89,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, View.OnTouchList
                     vibrator.vibrate(5000)
                 }
             }
+
             else if (event?.action == MotionEvent.ACTION_UP){
                 txvvb.text = "手指弹开"
                 vibrator.cancel()
